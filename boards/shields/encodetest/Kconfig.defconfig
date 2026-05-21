@@ -1,0 +1,6 @@
+if SHIELD_ENCODETEST
+
+config ZMK_KEYBOARD_NAME
+    default "encodetest"
+
+endif # SHIELD_ENCODETEST
