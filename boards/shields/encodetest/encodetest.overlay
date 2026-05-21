@@ -25,11 +25,6 @@
         triggers-per-rotation = <20>;
     };
 
-    &left_encoder {
-    status = "okay";
-    };
-
-
     kscan: kscan {
         // If the hardware does not use a switch matrix, change this to the
         // appropriate driver and update the properties below to match.
@@ -65,6 +60,10 @@
             RC(0, 0) RC(0, 1)
             RC(1, 0) RC(1, 1)
         >;
+    };
+
+        &left_encoder {
+    status = "okay";
     };
     
 };
